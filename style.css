@@ -24,6 +24,10 @@ body {
   z-index: 4;
 }
 
+#content {
+  margin-top: 16px;
+}
+
 .desktop-sticky,
 .mobile-sticky {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -373,6 +377,11 @@ h4 {
   .wp-block-button:after {
     left: 34%;
 }
+
+#content {
+  margin-top: 24px;
+}
+
 }
 
 
