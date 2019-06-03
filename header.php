@@ -33,7 +33,12 @@ if ( apply_filters( 'czr_ms', false ) ) {
 	?>
 
 	<body <?php body_class(); ?> <?php echo apply_filters('tc_body_attributes' , '') ?>>
-    <div class="tableau"></div>
+    <div class="tableau">
+	<div class="layer1"></div>
+		<div class="layer2"></div>
+	<?php echo do_shortcode( '[get_floaty]' ); ?>
+		
+	</div>
     <?php do_action( '__before_page_wrapper' ); ?>
 		
 		

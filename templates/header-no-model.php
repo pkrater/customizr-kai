@@ -25,7 +25,13 @@
           czr_fn_render_template( 'header/parts/sidenav' );
         }
     ?>
-    <div class="tableau"></div>
+     <div class="tableau">
+	<div class="layer1"></div>
+    <div class="layer2"></div>
+      
+	<?php echo do_shortcode( '[get_floaty]' ); ?>
+		
+	
     <?php do_action('__before_page_wrapper'); ?>
 
     <div id="tc-page-wrap" class="<?php czr_fn_page_wrapper_class() ?>">
