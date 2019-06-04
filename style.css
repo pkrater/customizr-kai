@@ -5,7 +5,7 @@
  Author:         PJ
  Author URI:     http:/kaink.se
  Template:       customizr
- Version:        1.0.2
+ Version:        1.0.4
 */
 
 :root {
@@ -96,6 +96,7 @@ article.post {
   margin-top: 24px;
   padding: 0 24px;
 }
+
 
 body {
 
@@ -333,6 +334,10 @@ input.wpcf7-form-control, textarea.wpcf7-form-control {
   .home #main-wrapper {
     padding-bottom: 2.5em;
     padding-top: 2.5em;
+  }
+
+  article .entry-content {
+    font-size: 1em;
   }
 }
 
